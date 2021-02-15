@@ -227,7 +227,7 @@
 
     <div class="row custom-margin-population">
         <div class="col-12">
-            <h1>In addition, the number of deaths should also be compared with the permanent resident population in private households by canton and household size. Hence these numbers:</h1>
+            <h1>Zudem sollte die Anzahl Todesfälle auch mit der ständigen Wohnbevölkerung in Privathaushalten nach Kanton und Haushaltsgrösse verglichen werden. Daher hier auch diese Zahlen:</h1>
             <hr class="my-2">
         </div>
     </div>
