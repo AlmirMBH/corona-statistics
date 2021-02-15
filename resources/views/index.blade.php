@@ -1,21 +1,25 @@
 @extends('layouts.app')
 
 @section('content')
-    {{--    <div class="d-flex justify-content-between align-items-center">--}}
-    {{--        <div class="section-title">--}}
-    {{--            <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras luctus lectus neque</h1>--}}
-    {{--            <p class="h5">Vivamus placerat dignissim tortor sed consequat. Cras metus nibh, dictum dictum diam eleifend, auctor vestibulum orci. Praesent eu erat scelerisque, vulputate dui sit amet, mollis urna.</p>--}}
-    {{--        </div>--}}
-    {{--        <div class="section-bg-image">--}}
-    {{--            <img src="{{ asset('images/theme/boy-girl-with-swiss-flag.png') }}" alt="Boy and girl with swiss flag" class="img-fluid">--}}
-    {{--        </div>--}}
-    {{--    </div>--}}
+    <div class="d-flex justify-content-between align-items-center">
+        <div class="section-title">
+            <h1>Corona Zahlen</h1>
+            <p class="h5">Eigentlich sind wir der Meinung, dass diese Zahlung und Informationen vom Bundesrat kommen sollten. Es gibt wenige Personen, welche bei einer starken Uebersterblichkeit sich nicht an die Regeln halten wollen. Zum Glück zeigen die realen Zahlen jedoch nur eine Uebersterblichkeit bei den +80-Jährigen.
+                Gerne werden wir diese Seite laufend aktualisieren und mit weiteren Zahlen ergänzen.</p>
+            <div class="data-link mt-3">
+                <a href="https://www.bfs.admin.ch/"><h5>Alle Daten stammen von der offiziellen Webseite</h5></a>
+            </div>
+
+        </div>
+        <div class="section-bg-image">
+            <img src="{{ asset('images/theme/boy-girl-with-swiss-flag.png') }}" alt="Boy and girl with swiss flag" class="img-fluid">
+        </div>
+    </div>
 
     <div class="row custom-margin-death-rate">
         <div class="col-sm-12">
             <h1>Todesfälle nach Altersklasse und Woche, 2015-2020 (Schweiz)</h1>
             <hr class="my-2">
-            <h4>Wir finden diese info müsste vom bundesrat kommen !!!</h4>
         </div>
     </div>
 
@@ -223,9 +227,8 @@
 
     <div class="row custom-margin-population">
         <div class="col-12">
-            <h1>Ständige Wohnbevölkerung in Privathaushalten nach Kanton und Haushaltsgrösse</h1>
+            <h1>In addition, the number of deaths should also be compared with the permanent resident population in private households by canton and household size. Hence these numbers:</h1>
             <hr class="my-2">
-            <h4>Wir finden diese info müsste vom bundesrat kommen !!!</h4>
         </div>
     </div>
     <div class="mt-5 d-flex">
