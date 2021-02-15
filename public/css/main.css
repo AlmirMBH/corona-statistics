@@ -23,6 +23,10 @@
     margin-top: 100px;
 }
 
+.data-link{
+    text-align: right;
+}
+
 .border-color-red {
     border-color: #CC141E !important;
 }
